@@ -1,0 +1,74 @@
+[{
+    "id": "1058173",
+    "name": "Dollhouse Plus Size Faux-Fur Hooded Belted Puffer Coat",
+    "description": "LookcuteinthecoldwithDollhouse'splussizepuffercoat, featuringafaux-furhood.",
+    "regularprice": "79.00",
+    "saleprice": "34.99",
+    "productphoto": "download1.jpeg",
+    "colors": [
+               "white",
+               "red",
+               "blue"
+               ],
+    "stores": {
+        "name1": "address1",
+        "name2": "address2"
+    }
+},
+{
+    "id": "839276",
+    "name": "product 3",
+    "description": "Keep it simple and chic in Jessica Simpson's plus size coat featuring cute toggle closures with faux-leather detailing!",
+    "regularprice": "30.00",
+    "saleprice": "16.99",
+    "productphoto": "download3.jpeg",
+    "colors": [
+               "white",
+               "red",
+               "blue",
+               "black"
+               ],
+    "stores": {
+        "name1": "address1",
+        "name2": "address2",
+        "name3": "address3"
+    }
+ },
+ {
+ "id": "839275",
+ "name": "product 4",
+ "description": "Keep it simple and chic in Jessica Simpson's plus size coat featuring cute toggle closures with faux-leather detailing!",
+ "regularprice": "11.11",
+ "saleprice": "16.99",
+ "productphoto": "download4.jpeg",
+ "colors": [
+            "white",
+            "red",
+            "blue",
+            "black"
+            ],
+ "stores": {
+ "name1": "address1",
+ "name2": "address2",
+ "name3": "address3"
+ }
+ },
+ {
+ "id": "839277",
+ "name": "Jessica Simpson Plus Size Hooded Toggle-Front Textured Coat",
+ "description": "Keep it simple and chic in Jessica Simpson's plus size coat featuring cute toggle closures with faux-leather detailing!",
+ "regularprice": "300.00",
+ "saleprice": "66.99",
+ "productphoto": "download2.jpeg",
+ "colors": [
+            "white",
+            "red",
+            "blue",
+            "black"
+            ],
+ "stores": {
+ "name1": "address1",
+ "name2": "address2",
+ "name3": "address3"
+ }
+ }]
