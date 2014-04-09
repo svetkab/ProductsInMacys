@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Svetlana Brodskaya. All rights reserved.
 //
 
-#import "ProductInfoViewController.h"
+//#import "ProductInfoViewController.h"
 #import "ProductsViewController.h"
 #import "TCSProductTableViewCell.h"
 #import "TCSSqlLiteManager.h"
@@ -137,7 +137,9 @@
 
 #pragma mark - Table view delegate
 
+
 // In a xib-based application, navigation from a table can be handled in -tableView:didSelectRowAtIndexPath:
+/*
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here, for example:
@@ -151,6 +153,7 @@
     productInfoViewController.modalTransitionStyle = UIModalTransitionStyleCrossDissolve;
     [self presentViewController:productInfoViewController animated:YES completion:nil];
 }
+*/
 
 #pragma mark - call from imageView
 
