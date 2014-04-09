@@ -16,7 +16,7 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="220" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="LqX-Xu-xKT">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" separatorStyle="default" allowsSelection="NO" rowHeight="220" sectionHeaderHeight="1" sectionFooterHeight="1" translatesAutoresizingMaskIntoConstraints="NO" id="LqX-Xu-xKT">
                     <rect key="frame" x="0.0" y="10" width="320" height="558"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                     <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -25,7 +25,7 @@
                         <outlet property="delegate" destination="-1" id="cmc-i3-8ph"/>
                     </connections>
                 </tableView>
-                <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-UQ-lPX">
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lei-UQ-lPX">
                     <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                     <items>
@@ -40,6 +40,15 @@
                 </navigationBar>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="LqX-Xu-xKT" firstAttribute="trailing" secondItem="Lei-UQ-lPX" secondAttribute="trailing" id="5W0-hr-Mq2"/>
+                <constraint firstAttribute="trailing" secondItem="LqX-Xu-xKT" secondAttribute="trailing" id="831-wS-qWQ"/>
+                <constraint firstAttribute="bottom" secondItem="LqX-Xu-xKT" secondAttribute="bottom" id="Vun-0M-0Au"/>
+                <constraint firstItem="LqX-Xu-xKT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="ZHJ-qI-akB"/>
+                <constraint firstItem="LqX-Xu-xKT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qm4-HU-XYy"/>
+                <constraint firstItem="Lei-UQ-lPX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="r4o-3M-PQ5"/>
+                <constraint firstItem="LqX-Xu-xKT" firstAttribute="leading" secondItem="Lei-UQ-lPX" secondAttribute="leading" id="s5H-mF-WyZ"/>
+            </constraints>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
         </view>
     </objects>
